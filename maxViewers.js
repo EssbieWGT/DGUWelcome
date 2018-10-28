@@ -14,8 +14,7 @@ maxViewers = ["0"]
 
     var currentViewers = document.getElementsByClassName("view-count style-scope yt-view-count-renderer")[0].innerHTML
     var viewerNumber = currentViewers.split(' ')
-
-
+    
     if (viewerNumber[0] > maxViewers[0]){
       maxViewers[0] = viewerNumber[0]
       console.log("Max viewers = " + maxViewers[0] + " at " + new Date())
