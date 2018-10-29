@@ -1,6 +1,6 @@
 //Simple function to log the maximum viewers in a YouTube live event! 
-//While the event is live, copy the code below, open up your console (option+command+j in Chrome), and paste this code in. 
-//Will run automatically, updating you on the current max number of viewers as needed as long as the window is open. 
+//While the event is live, copy the code below, open up your console (option+command+j in Chrome), paste this code in and press enter.
+//Will run automatically, updating you on the current max number of viewers as needed as long as you don't navigate away from the page. 
 
 function tracking() {
 
